@@ -4,6 +4,7 @@ import MiniNav from "./components/mininav";
 import Content1 from "./components/homepage-content/content-1";
 import Content2 from "./components/homepage-content/content-2";
 import Footer from "./components/homepage-content/footer";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -29,20 +30,20 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
-        <script
+        <Script
           src="https://unpkg.com/react/umd/react.production.min.js"
           crossorigin
-        ></script>
+        ></Script>
 
-        <script
+        <Script
           src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
           crossorigin
-        ></script>
+        ></Script>
 
-        <script
+        <Script
           src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
           crossorigin
-        ></script>
+        ></Script>
       </Head>
 
       <Content1></Content1>
