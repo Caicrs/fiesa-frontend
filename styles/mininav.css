@@ -1,0 +1,17 @@
+.mininav_container{
+    background-color: rgb(19, 19, 19);
+    height: 1.5rem;
+}
+.btn_painel{
+    height: 20px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.right_box{
+    float: right;
+}
+.mec{
+    opacity: 50%;
+}

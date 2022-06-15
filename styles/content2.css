@@ -1,0 +1,37 @@
+.content2_container{
+    width: 100%;
+    height: 100%;
+}
+.title_c2{
+text-align: center;
+color : #0070f3;
+font-weight: 700;
+padding: 5rem;
+}
+
+.grid_courses{
+    width: 100%;
+    height: 100%;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        padding-bottom: 5rem;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: #0070f3;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box:hover{
+    transform: scale(0.9);
+}
