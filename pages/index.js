@@ -29,17 +29,18 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
-        <Script src="https://unpkg.com/react/umd/react.production.min.js"></Script>
-
-        <Script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></Script>
-
-        <Script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"></Script>
       </Head>
 
       <Content1></Content1>
       <Content2></Content2>
 
       <Footer></Footer>
+
+      <Script src="https://unpkg.com/react/umd/react.production.min.js"></Script>
+
+      <Script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></Script>
+
+      <Script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"></Script>
     </>
   );
 }
