@@ -20,7 +20,6 @@ export default function Home() {
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous"
         ></link>
         <link
           rel="stylesheet"
@@ -30,20 +29,11 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
-        <Script
-          src="https://unpkg.com/react/umd/react.production.min.js"
-          crossorigin
-        ></Script>
+        <Script src="https://unpkg.com/react/umd/react.production.min.js"></Script>
 
-        <Script
-          src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-          crossorigin
-        ></Script>
+        <Script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></Script>
 
-        <Script
-          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin
-        ></Script>
+        <Script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"></Script>
       </Head>
 
       <Content1></Content1>
