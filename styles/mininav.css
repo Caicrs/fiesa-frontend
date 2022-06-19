@@ -1,17 +1,46 @@
 .mininav_container{
-    background-color: rgb(19, 19, 19);
-    height: 1.5rem;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: fit-content;
+    
+}
+.mini_container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .btn_painel{
-    height: 20px;
+    padding: 0.25rem 1rem 0.25rem 1rem ;
+    width: fit-content;
     text-align: center;
-    margin: 0 10px 0 10px;
     font-family: 'Raleway';
     font-weight: 600;
+    margin: 0 0 0 1rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.btn_painel:hover{
+    opacity: 1;
 }
 .right_box{
-    float: right;
-}
-.mec{
-    opacity: 50%;
+    background-color: rgb(170, 180, 170);
+    width: fit-content;
+ }
+
+
+
+@media (max-width: 500px)
+{
+    .mini_container{
+        width: 100%;
+        flex-direction: row;
+    }
+    .btn_painel{
+        cursor: pointer;
+        color: white;
+        margin: 0 auto;
+    }
 }

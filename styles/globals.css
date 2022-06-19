@@ -12,13 +12,18 @@ a {
   text-decoration: none;
 }
 
-
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
 
 .optionsNavbar{
   font-weight: 600;
 }
+
