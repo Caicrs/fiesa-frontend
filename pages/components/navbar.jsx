@@ -64,11 +64,11 @@ export default function NavbarComp() {
                         <a id="home" className="menu-item" href="/">
                             Home
                         </a>
-                        <a id="about" className="menu-item" href="/about">
+                        <a id="about" className="menu-item" href="/">
                             Graduação
                         </a>
                         <a id="contact" className="menu-item" href="/contact">
-                            Pós graduação
+                            Pós graduação EAD
                         </a>
                         <a id="contact" className="menu-item" href="/contact">
                             Pós graduação Semi-Presencial

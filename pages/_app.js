@@ -4,6 +4,7 @@ import "../styles/content1.css";
 import "../styles/content2.css";
 import "../styles/footer.css";
 import "../styles/navbar.css";
+import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -24,3 +24,13 @@ filter: opacity(0.5);
     color: white;
     font-weight: 500;
 }
+.imgbox_mob{
+    width: 100%;
+    height: 100%;
+
+    margin-top: 2rem;
+
+}
+.bannerimg_mob{
+    width: 100%;
+}

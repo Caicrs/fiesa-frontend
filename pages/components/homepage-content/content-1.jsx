@@ -1,48 +1,46 @@
-import {Container} from "react-bootstrap";
-import Button from "@mui/material/Button";
-import Image from "next/image";
-import banner1 from "../../../public/banner1.png"
-import React, { useState, useEffect } from 'react'
+import { useMediaQuery } from 'react-responsive';
+import Image from 'next/image';
+import banner1 from '../../../public/banner1_mob.png';
+import banner2 from '../../../public/banner2.png';
+import banner3 from '../../../public/banner3.png';
 
-export default function Content1 (){
-    var [windowDimenion, detectHW] = useState({
-        winWidth : window.innerWidth ,
-        winHeight :  window.innerHeight,
-      })
-    
-      var detectSize = () => {
-        detectHW({
-          winWidth:window.innerWidth,
-          winHeight: window.innerHeight,
-        })
-      }
-    
-      useEffect(() => {
-        window.addEventListener('resize', detectSize)
-    
-        return () => {
-          window.removeEventListener('resize', detectSize)
-        }
-      }, [windowDimenion])
 
-      if(windowDimenion.winWidth < 1000){
-            return (<>
-            <h1>Menor que 1000 | if #1</h1>
-            </>)
-      }
+import React, { useState, useEffect } from 'react';
 
-      console.log(windowDimenion.winWidth )
+export default function Content1() {
+    const isTabletOrMobile = useMediaQuery({ query: '(min-width: 600px)' });
 
-    return(
+    const [windowSize, setWindow] = useState(false);
+    const [cont,setCont] = useState(1)
+
+    const images = [banner2,banner3]
+
+
+
+    useEffect(() => setWindow(isTabletOrMobile), []);
+    // TABLET | MOBILE VERSION
+    if (windowSize == false) {
+        return (
+            <>
+            <div className="imgbox_mob">
+            <Image  src={images[0]}></Image>
+            </div>
+                
+            </>
+        );
+    }
+
+    return (
         <>
-        <p>Width: <strong>{windowDimenion.winWidth}</strong></p>
-      <p>Height: <strong>{windowDimenion.winHeight}</strong></p>
-
-      
-        <Image src={banner1}></Image>
-
+            <div className="imgbox_mob">
+                <Image
+                   
+                 
+                    src={banner2}
+                ></Image>
+            </div>
         </>
-    )
+    );
 }
 
 /*

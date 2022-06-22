@@ -1,12 +1,10 @@
 import Image from 'next/image';
-import { slide as Menu } from 'react-burger-menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
-import Link from 'next/link';
-import MiniNav from './mininav';
 import React from 'react';
+import Select from 'react-select';
+import arrow from '../../public/arrow.svg'
 import { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
+
 // CSS NAVBAR.CSS
 
 export default function SubNavbarComp() {
@@ -16,13 +14,10 @@ export default function SubNavbarComp() {
 
     useEffect(() => setWindow(isTabletOrMobile), []);
 
-    console.log(windowSize + 'mobile');
-
     // DESKTOP VERSION
     if (windowSize == false) {
         return (
             <>
-                
                 <div className="subnavbar">
                     <div className="content_box ">
                         <div className="text">Home</div>
@@ -31,27 +26,28 @@ export default function SubNavbarComp() {
                         <div className="text">Sobre</div>
                     </div>
                     <div className="content_box">
-                        <div className="text">Graduação</div>
-                    </div>
-                    <div className="content_box pos">
-                        <div className="text pos">Pós Graduação</div>
-                        <Image
-                            src="/arrow.svg"
-                            width="50"
-                            height="20"
-                            className="arrow_img pos"
-                            alt="React Bootstrap logo"
-                        />
+                    <a  className="text" href="/#graduacao">
+                            Graduação
+                        </a>
                     </div>
                     <div className="content_box">
                         <div className="text">MBA</div>
                     </div>
+                    <div className="content_box pos">
+                        <div class="dropdown">
+                            <button class="dropbtn pos text"><h4>Pós Graduação</h4><Image  className="arrow_icon" src={arrow}/></button>
+                            
+                            <div class="dropdown-content">
+                                <a href="#1">Pós Graduação EAD</a>
+                                <a href="#2">Pós Graduação Semi-Presencial</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="content_2 ">
                         <div className="text alunos_btn">Acesso do aluno</div>
                     </div>
                 </div>
-
-               
             </>
         );
     }
