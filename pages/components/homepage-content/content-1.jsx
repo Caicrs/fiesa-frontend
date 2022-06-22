@@ -23,7 +23,7 @@ export default function Content1() {
         return (
             <>
             <div className="imgbox_mob">
-            <Image  src={images[0]}></Image>
+            <Image alt="x"   src={images[0]}></Image>
             </div>
                 
             </>
@@ -34,7 +34,7 @@ export default function Content1() {
         <>
             <div className="imgbox_mob">
                 <Image
-                   
+                   alt="x" 
                  
                     src={banner2}
                 ></Image>

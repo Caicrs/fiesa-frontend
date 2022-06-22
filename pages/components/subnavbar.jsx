@@ -34,10 +34,10 @@ export default function SubNavbarComp() {
                         <div className="text">MBA</div>
                     </div>
                     <div className="content_box pos">
-                        <div class="dropdown">
-                            <button class="dropbtn pos text"><h4>Pós Graduação</h4><Image  className="arrow_icon" src={arrow}/></button>
+                        <div className="dropdown">
+                            <button className="dropbtn pos text"><h4>Pós Graduação</h4><Image alt="x" className="arrow_icon" src={arrow}/></button>
                             
-                            <div class="dropdown-content">
+                            <div className="dropdown-content">
                                 <a href="#1">Pós Graduação EAD</a>
                                 <a href="#2">Pós Graduação Semi-Presencial</a>
                             </div>
