@@ -3,8 +3,6 @@ import Image from 'next/image';
 import banner1 from '../../../public/banner1_mob.png';
 import banner2 from '../../../public/banner2.png';
 import banner3 from '../../../public/banner3.png';
-
-
 import React, { useState, useEffect } from 'react';
 
 export default function Content1() {
@@ -17,7 +15,7 @@ export default function Content1() {
 
 
 
-    useEffect(() => setWindow(isTabletOrMobile), []);
+    useEffect(() => setWindow(isTabletOrMobile), [isTabletOrMobile]);
     // TABLET | MOBILE VERSION
     if (windowSize == false) {
         return (

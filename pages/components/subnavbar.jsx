@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link';
 import Select from 'react-select';
 import arrow from '../../public/arrow.svg'
 import { useEffect, useState } from 'react';
@@ -38,8 +39,8 @@ export default function SubNavbarComp() {
                             <button className="dropbtn pos text"><h4>Pós Graduação</h4><Image alt="x" className="arrow_icon" src={arrow}/></button>
                             
                             <div className="dropdown-content">
-                                <a href="#1">Pós Graduação EAD</a>
-                                <a href="#2">Pós Graduação Semi-Presencial</a>
+                                <Link href="#1">Pós Graduação EAD</Link>
+                                <Link href="#2">Pós Graduação Semi-Presencial</Link>
                             </div>
                         </div>
                     </div>
