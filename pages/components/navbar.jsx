@@ -12,7 +12,7 @@ export default function NavbarComp() {
 
     const [windowSize, setWindow] = useState(false);
 
-    useEffect(() => setWindow(isTabletOrMobile), [isTabletOrMobile]);
+    useEffect(() => setWindow(isTabletOrMobile), []);
 
     // DESKTOP VERSION
     if (windowSize == false) {
@@ -60,25 +60,35 @@ export default function NavbarComp() {
                        
                     >
                      
-                       
-                        <Link id="home" className="menu-item" href="/">
+                     <Link href="/contact"> 
+                        <div id="home" className="menu-item" href="/">
                             Home
+                        </div>
                         </Link>
-                        <Link id="about" className="menu-item" href="/">
+                        <Link href="/contact"> 
+                        <div id="about" className="menu-item" href="/">
                             Graduação
+                        </div>
                         </Link>
-                        <Link id="contact" className="menu-item" href="/contact">
+                        <Link href="/contact"> 
+                        <div id="contact" className="menu-item" href="/contact">
                             Pós graduação EAD
+                        </div>
                         </Link>
-                        <Link id="contact" className="menu-item" href="/contact">
+                        <Link href="/contact"> 
+                        <div id="contact" className="menu-item" href="/contact">
                             Pós graduação Semi-Presencial
+                        </div>
                         </Link>
-                        <Link id="contact" className="menu-item" href="/contact">
+                        <Link href="/contact"> 
+                        <div id="contact" className="menu-item" href="/contact">
                             MBA
+                        </div>
                         </Link>
-                        <Link id="contact" className="menu-item" href="/contact">
+                        <Link href="/contact"> 
+                        <div id="contact" className="menu-item" href="">
                             Registro do MEC
-                        </Link>
+                        </div></Link>
                     </Menu>
                 </div>
                 <div className="img_box">
