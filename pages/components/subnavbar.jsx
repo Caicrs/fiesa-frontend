@@ -27,9 +27,10 @@ export default function SubNavbarComp() {
                         <div className="text">Sobre</div>
                     </div>
                     <div className="content_box">
-                    <Link  className="text" href="/#graduacao">
+                        <Link href="#graduacao">
+                    <div className="text" >
                             Graduação
-                        </Link>
+                        </div></Link>
                     </div>
                     <div className="content_box">
                         <div className="text">MBA</div>
