@@ -13,7 +13,7 @@ export default function Content2() {
 
     const [windowSize, setWindow] = useState(false);
 
-    useEffect(() => setWindow(isTabletOrMobile), []);
+    useEffect(() => setWindow(isTabletOrMobile), [isTabletOrMobile]);
      // TABLET | MOBILE VERSION
      if (windowSize == true) {
         return (

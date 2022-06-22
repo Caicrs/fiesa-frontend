@@ -13,7 +13,7 @@ export default function SubNavbarComp() {
 
     const [windowSize, setWindow] = useState(false);
 
-    useEffect(() => setWindow(isTabletOrMobile), []);
+    useEffect(() => setWindow(isTabletOrMobile), [isTabletOrMobile]);
 
     // DESKTOP VERSION
     if (windowSize == false) {
