@@ -62,9 +62,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
     }
 }
 @media (min-width: 768px)  {
-    .content2_container  {
-        background-color: rgb(128, 47, 0);
-    }
+   
     .img{
         padding: 5rem;
     }

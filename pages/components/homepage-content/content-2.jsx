@@ -18,11 +18,11 @@ export default function Content2() {
      if (windowSize == true) {
         return (
             <>
-                <h1 className="title_courses">Conheça nossos cursos tablet</h1>
+                <h1 className="title_courses">Conheça nossos cursos </h1>
                 <div className="content2_container" id="graduacao">
                     <div className="left_box">
                         <div className="img">
-                            <Image className="img_trophy" src={trophy1}></Image>
+                            <Image alt="React Bootstrap logo" className="img_trophy" src={trophy1}></Image>
                         </div>
                     </div>
                     <div className="right_box">
@@ -66,18 +66,18 @@ export default function Content2() {
                         </div>
                     </div>
                     <div className="left_box revert">
-                        {' '}
+                    
                         <div className="img">
-                            <Image className="img_trophy" src={trophy2}></Image>
+                            <Image alt="React Bootstrap logo" className="img_trophy" src={trophy2}></Image>
                         </div>
                     </div>
                     
                 </div>
                 <div className="content2_container" id="pos_graduacao_sp">
                     <div className="left_box">
-                        {' '}
+                      
                         <div className="img">
-                            <Image className="img_trophy" src={trophy3}></Image>
+                            <Image  alt="React Bootstrap logo" className="img_trophy" src={trophy3}></Image>
                         </div>
                     </div>
                     <div className="right_box">
@@ -126,7 +126,7 @@ export default function Content2() {
                     <div className="left_box revert">
                         
                         <div className="img">
-                            <Image className="img_trophy mba" src={trophy4}></Image>
+                            <Image  alt="React Bootstrap logo" className="img_trophy mba" src={trophy4}></Image>
                         </div>
                     </div>
                 </div>
@@ -135,11 +135,11 @@ export default function Content2() {
      }
     return (
         <>
-            <h1 className="title_courses">Conheça nossos cursos pc</h1>
+            <h1 className="title_courses">Conheça nossos cursos</h1>
             <div className="content2_container" id="graduacao">
                 <div className="left_box">
                     <div className="img">
-                        <Image className="img_trophy" src={trophy1}></Image>
+                        <Image alt="React Bootstrap logo" className="img_trophy" src={trophy1}></Image>
                     </div>
                 </div>
                 <div className="right_box">
@@ -185,7 +185,7 @@ export default function Content2() {
                 <div className="left_box revert">
                     {' '}
                     <div className="img">
-                        <Image className="img_trophy" src={trophy2}></Image>
+                        <Image alt="React Bootstrap logo" className="img_trophy" src={trophy2}></Image>
                     </div>
                 </div>
                 
@@ -194,7 +194,7 @@ export default function Content2() {
                 <div className="left_box">
                     {' '}
                     <div className="img">
-                        <Image className="img_trophy" src={trophy3}></Image>
+                        <Image alt="React Bootstrap logo" className="img_trophy" src={trophy3}></Image>
                     </div>
                 </div>
                 <div className="right_box">
@@ -243,7 +243,7 @@ export default function Content2() {
                 <div className="left_box revert">
                     
                     <div className="img">
-                        <Image className="img_trophy mba" src={trophy4}></Image>
+                        <Image alt="React Bootstrap logo" className="img_trophy mba" src={trophy4}></Image>
                     </div>
                 </div>
             </div>
