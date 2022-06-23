@@ -4,12 +4,14 @@ import Content1 from './components/homepage-content/content-1';
 import Content2 from './components/homepage-content/content-2';
 import Footer from './components/homepage-content/footer';
 import SubNavbarComp from './components/subnavbar';
+import Vantagens from './components/homepage-content/vantagens';
 
 
 export default function Home() {
     return (
         <>
             <NavbarComp></NavbarComp>
+            
             <SubNavbarComp></SubNavbarComp>
 
             <Head>
@@ -19,6 +21,7 @@ export default function Home() {
             </Head>
 
             <Content1></Content1>
+            <Vantagens></Vantagens>
             <Content2></Content2>
 
             <Footer></Footer>

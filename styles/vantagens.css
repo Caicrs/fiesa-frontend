@@ -1,0 +1,59 @@
+.vantagens_cont{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    
+    border-radius: 2rem;
+    margin: 3rem auto;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 25px;
+grid-row-gap: 0px;
+
+}
+.box_vant{
+    padding: 2rem 3rem 2rem 3rem;
+   width: 100%;
+   height: 100%;
+    text-align: center;
+}
+.img_icon{
+   
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
+.text_iconbox{
+    width: 100%;
+    height: fit-content;
+   
+    font-weight: 600;
+    font-size: medium;
+    padding-top: 1rem;
+}
+
+/* ---------------------- MOBILE ------------------------- */
+
+.vantagens_cont_mobile{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    
+    border-radius: 2rem;
+    margin: 3rem auto;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 2fr;
+grid-column-gap: 25px;
+grid-row-gap: 0px;
+
+}
+
+@media (max-width:600px){
+    .vantagens_cont_mobile{
+     
+        grid-template-columns: repeat(1, 1fr);
+grid-template-rows: 4fr;
+    }
+}

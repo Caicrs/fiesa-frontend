@@ -1,14 +1,19 @@
 .content2_container {
-    width: 85%;
-    height: fit-content;
-    display: flex;
-    
-    transform: scale(0.9);
+    width: 80%;
+    height: 400px;
     margin: 0 auto 5rem auto;
-
     border-radius: 2rem;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.28);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.28);
+}
+.container_box {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-column-gap: 5px;
 }
 .title_courses {
     text-align: center;
@@ -17,26 +22,24 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
     color: #0070f3;
     font-size: 3rem;
     padding: 4rem;
-    
 }
 .title_c2 {
-    text-align: left;
+    text-align: center;
     color: #0070f3;
     font-weight: 700;
-    padding-bottom: 2rem;
-    width: 80%;
+    padding: 3rem 0 2rem 0;
     margin: 0 auto;
 }
 
 .grid_courses {
-    width: 80%;
-    height: 100%;
-    margin: 1.5rem auto;
-    padding-top: 2rem;
+    width: 90%;
+    height: fit-content;
+    margin: 1rem auto;
+    padding: 2rem 0 3rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0.2rem;
+    grid-column-gap: 0rem;
     grid-row-gap: 1rem;
 }
 .box {
@@ -44,7 +47,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
     height: 100%;
     font-size: 1rem;
     padding: 0.5rem;
-    
+    margin: 0 auto;
     font-weight: 600;
     text-align: center;
     border-radius: 2rem;
@@ -56,47 +59,38 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
 .box:hover {
     transform: scale(0.9);
 }
-@media (max-width: 768px)  {
-    .content2_container  {
+@media (max-width: 768px) {
+    .content2_container {
         background-color: green;
     }
 }
-@media (min-width: 768px)  {
-   
-    .img{
+@media (min-width: 768px) {
+    .img {
         padding: 5rem;
     }
 }
 .right_box {
     width: 100%;
     height: 100%;
-    padding: 2rem 0 2rem 0;
+
     background-color: transparent;
 }
 .left_box {
-    width: 50%;
-
-    background-color: #0070f3;
-    border-radius: 2rem 0 0 2rem;
-}
-.img{
-width: fit-content;
-padding: 3rem;
-height: fit-content;
-
+    width: 80%;
     margin: 0 auto;
-justify-items: center;
+}
+.img {
+    padding: 0;
 
+    width: fit-content;
 }
-.img_trophy{
-   border-radius: 2rem 0 0 2rem;
-}
-.revert{
+
+.revert {
     border-radius: 0 2rem 2rem 0;
 }
 .text_box {
     width: 80%;
     margin: 0 auto;
-    font-size: large;
+    font-size: small;
     font-weight: 600;
 }
