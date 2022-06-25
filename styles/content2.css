@@ -84,6 +84,7 @@
 @media (min-width: 768px) {
     .img {
         padding: 5rem;
+        background-color: red;
     }
 }
 .right_box {

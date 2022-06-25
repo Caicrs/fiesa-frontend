@@ -1,9 +1,5 @@
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
-import trophy1 from '../../../public/trophy1.svg';
-import trophy2 from '../../../public/trophy2.svg';
-import trophy3 from '../../../public/trophy3.svg';
-import trophy4 from '../../../public/trophy4.svg';
 import { useMediaQuery } from 'react-responsive';
 import React, { useState, useEffect } from 'react';
 

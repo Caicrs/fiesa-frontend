@@ -1,7 +1,7 @@
 .content1_container{
     width: 98.9vw;
     height: 90vh;
-    background-image: url("../public/img1.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-backdrop-filter: blur(10px);
