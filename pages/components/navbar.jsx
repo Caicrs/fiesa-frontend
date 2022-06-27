@@ -60,32 +60,32 @@ export default function NavbarComp() {
                        
                     >
                      
-                     <Link href="/contact"> 
+                     <Link href="/"> 
                         <div id="home" className="menu-item" href="/">
                             Home
                         </div>
                         </Link>
-                        <Link href="/contact"> 
+                        <Link href="/#graduacao"> 
                         <div id="about" className="menu-item" href="/">
                             Graduação
                         </div>
                         </Link>
-                        <Link href="/contact"> 
+                        <Link href="/#pos_graduacao_ead"> 
                         <div id="contact" className="menu-item" href="/contact">
                             Pós graduação EAD
                         </div>
                         </Link>
-                        <Link href="/contact"> 
+                        <Link href="/#pos_graduacao_semi"> 
                         <div id="contact" className="menu-item" href="/contact">
                             Pós graduação Semi-Presencial
                         </div>
                         </Link>
-                        <Link href="/contact"> 
+                        <Link href="/#mba"> 
                         <div id="contact" className="menu-item" href="/contact">
                             MBA
                         </div>
                         </Link>
-                        <Link href="/contact"> 
+                        <Link href="/sobre"> 
                         <div id="contact" className="menu-item" href="">
                             Registro do MEC
                         </div></Link>

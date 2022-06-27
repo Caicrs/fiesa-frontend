@@ -21,27 +21,33 @@ export default function SubNavbarComp() {
             <>
                 <div className="subnavbar">
                     <div className="content_box ">
-                        <div className="text">Home</div>
+                    <Link href="/">
+                    <div className="text" >
+                            Home
+                        </div></Link>
                     </div>
                     <div className="content_box ">
                         <div className="text">Sobre</div>
                     </div>
                     <div className="content_box">
-                        <Link href="#graduacao">
+                        <Link href="/#graduacao">
                     <div className="text" >
                             Graduação
                         </div></Link>
                     </div>
                     <div className="content_box">
-                        <div className="text">MBA</div>
+                    <Link href="/#mba">
+                    <div className="text" >
+                            MBA
+                        </div></Link>
                     </div>
                     <div className="content_box pos">
                         <div className="dropdown">
                             <button className="dropbtn pos text"><h4>Pós Graduação</h4><Image alt="x" className="arrow_icon" src={arrow}/></button>
                             
                             <div className="dropdown-content">
-                                <Link href="#1">Pós Graduação EAD</Link>
-                                <Link href="#2">Pós Graduação Semi-Presencial</Link>
+                                <Link href="/#pos_graduacao_ead">Pós Graduação EAD</Link>
+                                <Link href="/#pos_graduacao_semi">Pós Graduação Semi-Presencial</Link>
                             </div>
                         </div>
                     </div>
