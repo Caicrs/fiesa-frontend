@@ -1,7 +1,7 @@
 import NavbarComp from '../components/navbar';
 import SubNavbarComp from '../components/subnavbar';
 import Content1 from '../components/homepage-content/content-1'
-import ChooseCategory from './chooseCategorys/choose_category_direito';
+import ChooseCategory from './chooseCategorys/choose_category_negocios';
 import Head from 'next/head';
 import Footer from '../components/homepage-content/footer';
 

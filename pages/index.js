@@ -25,7 +25,7 @@ export default function Home() {
             <Vantagens></Vantagens>
             <Content3></Content3>
             <Content2></Content2>
-            <Footer></Footer>
+            <Footer></Footer> 
         </>
     );
 }
