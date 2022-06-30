@@ -1,0 +1,221 @@
+.details1_container {
+    background-color: gray;
+    width: 100%;
+    height: 720px;
+    backdrop-filter: grayscale(30%);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    background-image: url(../public/direito-img1.png);
+}
+.info_container {
+    width: 83%;
+    margin: 0 auto;
+    padding-top: 8rem;
+    color: white;
+}
+.details_title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+.details_subtitle {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.subprice {
+    color: #282fe5;
+}
+.container_prices {
+    width: 55rem;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255, 0.65);
+    backdrop-filter: blur(2px);
+    border-radius: 2rem;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.48);
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.48);
+}
+
+.card_prices {
+    display: flex;
+}
+.card_left {
+    width: 100%;
+    height: fit-content;
+}
+.card_right {
+    width: 35%;
+    height: fit-content;
+
+    text-align: center;
+}
+.details_price {
+    font-size: 2.5rem;
+    color: #282fe5;
+}
+.card_btn {
+    width: fit-content;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    font-weight: 700;
+    transition: 0.3s;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color: #282fe5;
+}
+.card_btn:hover {
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.48);
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.48);
+}
+.container_infos {
+    margin-top: 2rem;
+}
+.info {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.info_icon {
+    padding: 0 0.5rem 0 0;
+}
+@media (max-width: 850px) {
+    .details_title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .details_subtitle {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .container_prices {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .card_prices {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+    }
+    .card_right {
+        width: 100%;
+        height: 100%;
+        padding-top: 2rem;
+    }
+    .card_btn {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        color: #282fe5;
+    }
+}
+/* ______________________________CONTENT_DETAILS _______________________ */
+
+.content_container {
+    width: 83%;
+
+    margin: 0 auto;
+}
+.line_content {
+    height: 5rem;
+    width: 3px;
+    background-color: #282fe5;
+}
+.title_content {
+    margin: 0 0 0 1rem;
+    font-size: 4rem;
+    color: #282fe5;
+    font-weight: bold;
+}
+.box_content {
+    display: flex;
+    height: fit-content;
+}
+.dropdown_grid {
+    width: 100%;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+}
+.drop_content{
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem ;
+    background-color: #282fe5;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    cursor: pointer;
+}
+.drop_content > .info_title {
+    width: 100%;
+    color: white;
+    font-weight: 700;
+}
+.icon_check{
+   
+    height: fit-content;
+ line-height: 0;
+   margin: 0;
+   padding: 0;
+  
+}
+.icon_check2{
+    padding: 2rem;
+   
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+.icon_rotate{
+    rotate: 180;
+}
+.expand_content{
+    width: 100%;
+    max-height: 0;
+   
+    background-color: #282fe5;
+    border-radius: 0 0 1rem 1rem;
+    color: white;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.1s cubic-bezier(0,1,0,1);
+}
+.expand_content.show{
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem ;
+    max-height: 9999px;
+    opacity: 1;
+    transition: all 1s cubic-bezier(1,0,21,0);
+    transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.block_point{
+   
+    display: flex;
+    margin: 0;
+    height: fit-content;
+    margin-bottom: 1rem ;
+}
+.full_content{
+    margin-bottom: 2rem;
+}
+.text_check{
+  
+    margin: 0;
+    padding-left: 1rem;
+}
+@media (max-width: 850px) {
+
+    .dropdown_grid {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .title_content{
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+}

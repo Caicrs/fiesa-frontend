@@ -20,7 +20,7 @@ export default function ChooseCategory() {
                             ></Image>
                             <div className="course_datas">
                                 <h1 className="course_title">
-                                    Direito Administrativo
+                                    Advocacia Criminal
                                 </h1>
                                 <h3 className="course_subtitle">
                                     Pós Graduação / Direito
@@ -32,7 +32,7 @@ export default function ChooseCategory() {
                                 <h3 className="course_price">18 x R$ 277,75</h3>
                             </div>
                         </div>
-                       <Link href="#">
+                       <Link href="/pos_graduacao_semi/details">
                        <div className='more_btn' >
                             Saiba mais
                         </div>
