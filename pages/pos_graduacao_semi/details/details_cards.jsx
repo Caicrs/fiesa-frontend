@@ -8,7 +8,7 @@ export default function Cards() {
         <div className="cards_grid">
             <div className="card" id="horarios">
                 <div className="icon_card">
-                    <Image src={alarm}></Image>
+                    <Image alt="a" src={alarm}></Image>
                 </div>
                 <h2 className="card_title">HORÁRIO DAS AULAS</h2>
                 <p className="card_text">
@@ -22,7 +22,7 @@ export default function Cards() {
             </div>
             <div className="card" id="cargahoraria">
                 <div className="icon_card">
-                    <Image src={chart}></Image>
+                    <Image alt="a" src={chart}></Image>
                 </div>
                 <h2 className="card_title">CARGA HORÁRIA E <br></br>DURAÇÃO DO CURSO</h2>
                 <p className="card_text">
@@ -34,7 +34,7 @@ export default function Cards() {
             </div>
             <div className="card" id="frequencia">
                 <div className="icon_card">
-                    <Image src={ucheck}></Image>
+                    <Image alt="a" src={ucheck}></Image>
                 </div>
                 <h2 className="card_title">FREQUÊNCIA</h2>
                 <p className="card_text">

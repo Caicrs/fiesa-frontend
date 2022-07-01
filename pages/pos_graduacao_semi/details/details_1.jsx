@@ -31,7 +31,7 @@ export default function Details1() {
                     <div className="info">
                         <div className="info_icon">
             
-                            <Image src={calendar}></Image>
+                            <Image alt="a" src={calendar}></Image>
                         </div>
                         <p>
                             Início das aulas: 24/10/2022
@@ -40,7 +40,7 @@ export default function Details1() {
                     <div className="info">
                         <div className="info_icon">
             
-                            <Image src={file}></Image>
+                            <Image alt="a" src={file}></Image>
                         </div>
                         <p>
                             Emissão de

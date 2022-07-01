@@ -14,7 +14,7 @@ export default function ChooseCategory() {
                 <div className="courses_grid">
                     <div className="choose_course">
                         <div className="course_container">
-                            <Image
+                            <Image alt="a"
                                 className="img_course"
                                 src={courseEx}
                             ></Image>

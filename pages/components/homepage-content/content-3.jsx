@@ -11,7 +11,7 @@ export default function Content3() {
         <div className="content3_box">
             <div className="content3_container" id="moodle">
                 <div className="content3_right">
-                    <Image
+                    <Image alt="a" 
                         layout="responsive"
                         className="content3_img"
                         src={moodle}
@@ -32,7 +32,7 @@ export default function Content3() {
             </div>
             <div className="content3_container" id="challenges">
                 <div className="content3_right">
-                    <Image className="content3_img" src={arrowtarget}></Image>
+                    <Image alt="a" className="content3_img" src={arrowtarget}></Image>
                 </div>
                 <div className="content3_left">
                     <h1 className="content3_title">Desafios</h1>
@@ -45,7 +45,7 @@ export default function Content3() {
             </div>
             <div className="content3_container" id="infographic">
                 <div className="content3_right">
-                    <Image className="content3_img" src={chart}></Image>
+                    <Image alt="a" className="content3_img" src={chart}></Image>
                 </div>
                 <div className="content3_left">
                     <h1 className="content3_title">Infograficos</h1>
@@ -61,7 +61,7 @@ export default function Content3() {
             </div>
             <div className="content3_container" id="library">
                 <div className="content3_right">
-                    <Image className="content3_img" src={library}></Image>
+                    <Image alt="a" className="content3_img" src={library}></Image>
                 </div>
                 <div className="content3_left">
                     <h1 className="content3_title">Biblioteca</h1>
@@ -75,12 +75,12 @@ export default function Content3() {
             </div>
             <div className="content3_container" id="teacher">
                 <div className="content3_right">
-                    <Image className="content3_img" src={teacher}></Image>
+                    <Image alt="a" className="content3_img" src={teacher}></Image>
                 </div>
                 <div className="content3_left">
                     <h1 className="content3_title">Dica do professor</h1>
                     <p className="content3_text">
-                        O "Dica do professor" são videos com excelentes dicas de
+                        O Dica do professor são videos com excelentes dicas de
                         professores especializados no assunto que está sendo
                         estudado.
                     </p>
@@ -88,7 +88,7 @@ export default function Content3() {
             </div>
             <div className="content3_container" id="exercises">
                 <div className="content3_right">
-                    <Image className="content3_img" src={exercises}></Image>
+                    <Image alt="a" className="content3_img" src={exercises}></Image>
                 </div>
                 <div className="content3_left">
                     <h1 className="content3_title">Exercicios</h1>

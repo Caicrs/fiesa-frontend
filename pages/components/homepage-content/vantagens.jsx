@@ -19,25 +19,25 @@ export default function Vantagens() {
             <>
                 <div className="vantagens_cont_mobile">
                 <div className="box_vant">
-                    <Image className="img_icon" src={joystick}></Image>
+                    <Image alt="a" className="img_icon" src={joystick}></Image>
                     <p className="text_iconbox">
                        Games interativos relacionados ao seu curso
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={laptop}></Image>
+                    <Image alt="a" className="img_icon" src={laptop}></Image>
                     <p className="text_iconbox">
                         Suporte completo ao EAD
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={certificate}></Image>
+                    <Image alt="a" className="img_icon" src={certificate}></Image>
                     <p className="text_iconbox">
                         Autorizado pelo MEC
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={schoolhat}></Image>
+                    <Image alt="a" className="img_icon" src={schoolhat}></Image>
                     <p className="text_iconbox">
                         Cursos aceitos em concursos públicos e órgãos federais
                     </p>
@@ -51,25 +51,25 @@ export default function Vantagens() {
         <>
             <div className="vantagens_cont">
                 <div className="box_vant">
-                    <Image className="img_icon" src={joystick}></Image>
+                    <Image alt="a" className="img_icon" src={joystick}></Image>
                     <p className="text_iconbox">
                        Games interativos relacionados ao seu curso
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={laptop}></Image>
+                    <Image alt="a" className="img_icon" src={laptop}></Image>
                     <p className="text_iconbox">
                     Suporte completo ao EAD
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={certificate}></Image>
+                    <Image alt="a" className="img_icon" src={certificate}></Image>
                     <p className="text_iconbox">
                         Autorizado pelo MEC
                     </p>
                 </div>
                 <div className="box_vant">
-                    <Image className="img_icon" src={schoolhat}></Image>
+                    <Image alt="a" className="img_icon" src={schoolhat}></Image>
                     <p className="text_iconbox">
                         Cursos aceitos em concursos públicos e órgãos federais
                     </p>

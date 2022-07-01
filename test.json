@@ -1,0 +1,439 @@
+{
+    "article": {
+      "para": [
+        "APRESENTAÇÃO E CARACTERIZAÇÃO DE CURSO",
+        "1. APRESENTAÇÃO DO CURSO",
+        "",
+        "",
+        "2. CARACTERIZAÇÃO DO CURSO",
+        "",
+        "",
+        ""
+      ],
+      "informaltable": [
+        {
+          "tgroup": {
+            "tbody": {
+              "row": [
+                {
+                  "entry": [
+                    {
+                      "para": "Nome do curso"
+                    },
+                    {
+                      "para": "Pós-graduação em Direito Administrativo"
+                    }
+                  ]
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Sobre o curso"
+                    },
+                    {
+                      "para": [
+                        "A atividade administrativa do Estado é tema de importância reconhecida para as mais diversas áreas de atuação. Conhecer em profundidade como o Estado se estrutura, se organiza, como contrata, quem são e quais são as competências daqueles que atuam em seu nome, são alguns dos assuntos que compõem esse curso. O conteúdo é apresentado com a profundidade teórica necessária para o nível de pós-graduação, aliado às experiências práticas aptas a proporcionar a especialização do profissional que atuará junto à administração pública.",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "A quem se destina"
+                    },
+                    {
+                      "para": "Graduados em Direito e áreas afins (administração, economia, gestão pública, ciências sociais) que se interessem pela atividade administrativa do Estado. O curso destina-se aos advogados administrativistas, aos agentes públicos das mais diversas áreas e àqueles que pretendam ingressar em alguma dessas atividades."
+                    }
+                  ]
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Ementário"
+                    },
+                    {
+                      "para": "EIXO 1 – Direito Administrativo: contextualização"
+                    }
+                  ]
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 1 – Formas de Estado e de governo",
+                      "",
+                      "Conceito de soberania de Estado. Formas, regimes e sistemas de governo. Formas de governo: república e monarquia. Formas de governo e separação de Poderes: Poder Executivo, Poder Legislativo e Poder Judiciário. Crise da separação dos Poderes e reflexos na democracia. Sistemas de governo: presidencialismo e parlamentarismo. Parlamentarismo dualista e parlamentarismo monista.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "BASTOS, C. R. Curso de teoria do Estado e ciência política. 6. ed. São Paulo: Saraiva, 2004.",
+                      "BOBBIO, N. A teoria das formas de governo. 9. ed. Brasília: Universidade de Brasília, 1997.",
+                      "BONAVIDES, P. Ciência política. São Paulo: Malheiros, 2007.",
+                      "FERRAJOLI, L. Poderes selvagens: a crise da democracia italiana. São Paulo: Saraiva, 2014.",
+                      "FERREIRA FILHO, M. G. Curso de Direito Constitucional. 41. ed. Rio de Janeiro: Forense, 2020.",
+                      "MAQUIAVEL, N. O príncipe. São Paulo: Martin Claret, 2003.",
+                      "MONTESQUIEU. Do espírito das leis. São Paulo: Abril Cultural, 1973.",
+                      "SARTORI, G. Nem presidencialismo, nem parlamentarismo. Revista Novos Estudos, n. 35, mar. 1993. Disponível em: https://bibliotecadigital.tse.jus.br/xmlui/bitstream/handle/bdtse/5161/1993_sartori_presidencialismo_parlamentarismo.pdf?sequence=1&amp;isAllowed=y. Acesso em: 5 jul. 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "4 COISAS em que o parlamentarismo é diferente do presidencialismo. Mega Curioso, 23 mar. 2016. Disponível em: https://www.megacurioso.com.br/politica/98325-4-coisas-em-que-o-parlamentarismo-e-diferente-do-presidencialismo.htm. Acesso em: 5 jul. 2021.",
+                      "COUTO, L.; SOARES, A.; LIVRAMENTO, B. Presidencialismo de coalizão: conceito e aplicação. Revista Brasileira de Ciência Política, n. 34, p. 1-39, 2021. Disponível em: https://www.scielo.br/j/rbcpol/a/fmVjS6nMXFZHFYBJ9jpwH9g/?format=pdf&amp;lang=pt. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 2 – Introdução ao Direito Administrativo",
+                      "",
+                      "Estado e seus Poderes. Fontes do Direito Administrativo. Direito Administrativo moderno. Princípios de Direito Administrativo: princípio da continuidade do serviço público, princípio da moralidade administrativa, princípio da eficiência, princípio da segurança jurídica, princípio da legalidade, princípio da supremacia do interesse público e princípio da publicidade.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. São Paulo: Atlas, 2021.",
+                      "FERREIRA FILHO, M. G. Curso de Direito Constitucional. 41. ed. São Paulo: Saraiva, 2020.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva, 2021.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "MORAES, A. Direito Constitucional. 36. ed. São Paulo: Atlas, 2020.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "PAULO, V.; ALEXANDRINO, M. Direito Constitucional descomplicado. 20. ed. Rio de Janeiro: MÉTODO, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "GOMES, K. F. O declínio da supremacia do interesse público sobre o particular com a constitucionalização do Direito Administrativo. Revista Controle – Doutrina e Artigos, v. 19, n. 2, p. 366-389, 21 maio 2021. Disponível em: https://revistacontrole.tce.ce.gov.br/index.php/RCDA/article/view/697. Acesso em: 5 jul. 2021.",
+                      "PESSOA, R. S. Apontamentos para uma democracia administrativa: a dimensão política do direito administrativo. Revista Digital de Direito Administrativo, v. 8, n. 1, p. 1-18, 2021. Disponível em: https://www.revistas.usp.br/rdda/article/view/171135. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 3 – Organização da administração pública",
+                      "",
+                      "Órgãos públicos: conceito. Diferenças e semelhanças entre órgãos e entidades da administração direta e indireta. Teoria do órgão. Espécies de órgãos públicos: quanto à posição hierárquica, quanto à estrutura (simples/unitários e compostos), quanto à atividade e quanto à situação estrutural (diretivos e subordinados). Agentes públicos: conceito. Classificação: agentes políticos, ocupantes de cargos em comissão, contratados temporários, militares e particulares em colaboração. Hipóteses de acumulação de cargos, empregos e funções. Teto remuneratório.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "BRANDÃO, J. C. L. Comentários ao Estatuto do Servidor Público Federal. 4. ed. Curitiba: Juruá, 2021.",
+                      "CARVALHO FILHO, J. dos S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "COSTA, F. L. Brasil: 200 anos de Estado; 200 anos de administração pública; 200 anos de reformas. Revista de Administração Pública, v. 42, n. 5, p. 829-874, 2008. Disponível em: https://www.scielo.br/j/rap/a/DxgBXcJLnFHVxsqPbgCWCkQ/abstract/?lang=pt#. Acesso em: 5 jul. 2021.",
+                      {
+                        "#text": "VERZOLA, F. C. Os requisitos para acúmulo de cargos na área da saúde: a natureza técnica do cargo, compatibilidade de horários e teto remuneratório. Revista de Ciências Humanas, v. 1, n. 1, 2021. Disponível em: https://periodicos.ufv.br/RCH/article/view/11923. Acesso em: 5 jul. 2021.",
+                        "anchor": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Ementário"
+                    },
+                    {
+                      "para": "EIXO 2 – Administração pública"
+                    }
+                  ]
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 1 – Serviço público",
+                      "",
+                      "Serviço público: conceito e elementos. Princípios do serviço público: generalidade, continuidade, eficiência e modicidade. Cargo, emprego e função pública: conceitos e principais diferenças. Classificação dos cargos públicos: cargos vitalícios, cargos efetivos e cargos de provimento em comissão. Características dos cargos públicos. Classificação dos serviços públicos: serviços uti universi e uti singuli, serviços compulsórios e facultativos, serviços próprios e impróprios. Serviços públicos delegáveis e indelegáveis. Concessão e permissão de serviço público.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "SCATOLINO, G.; TRINDADE, J. Manual de Direito Administrativo. 8. ed. Salvador: Juspodivm, 2020.",
+                      "INDICAÇÃO DE LEITURA",
+                      "COSTA, I. G.; MELLO, C. G. O direito fundamental de acesso à água e a interrupção do serviço de abastecimento de água potável ao consumidor inadimplente. Quaestio Iuris, Rio de Janeiro, v. 14, n. 2, p. 949-974, 2021. Disponível em: https://www.e-publicacoes.uerj.br/index.php/quaestioiuris/article/view/41278/37766. Acesso em: 5 jul. 2021.",
+                      "WERNER, D.; HIRT, C. Neoliberalização dos serviços públicos: o papel do BNDES no saneamento básico pós-2000. Revista Brasileira de Gestão Urbana, v. 13, 2021. Disponível em: https://www.scielo.br/j/urbe/a/p6TMgNyCDjppwj64SzKF4Kn/#. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 2 – Poderes administrativos",
+                      "",
+                      "Poderes da administração pública: características. Espécies de poderes: poder normativo, poder disciplinar, poder hierárquico e poder de polícia. Aplicação dos poderes administrativos pelos tribunais. Servidor e empregado público: principais diferenças. Concurso público: obrigatoriedade. Regime jurídico previdenciários dos servidores públicos. Lei n. 8.112/90: aprovação, provimento, posse, exercício, estágio probatório, confirmação. Estabilidade do servidor: reintegração, disponibilidade e aproveitamento.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "BRANDÃO, J. C. L. Comentários ao Estatuto do Servidor Público Federal. 4. ed. Curitiba: Juruá, 2021.",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "FUX confirma inconstitucionalidade de cargos comissionados em cidade do RJ. Consultor Jurídico, 4 jul. 2021. Disponível em: https://www.conjur.com.br/2021-jul-04/fux-confirma-ilegalidade-cargos-comissionados-cidade-rj. Acesso em: 5 jul. 2021.",
+                      "RODAS, S. TJ-RJ manda município regular casos e condições para cargos comissionados. Consultor Jurídico, 2 jul. 2021. Disponível em: https://www.conjur.com.br/2021-jul-02/tj-rj-manda-municipio-regular-condicoes-cargos-comissionados. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 3 – Atos administrativos",
+                      "",
+                      "Atos administrativos: conceito. Elementos do ato administrativo: competência, finalidade, forma, motivo, objeto. Classificação dos atos. Quanto às características: vinculado ou discricionário, simples ou complexo e de império ou de gestão. Quanto à forma: decreto, portaria, resolução, circular, despacho e alvará. Quanto ao conteúdo: autorização, licença, admissão, permissão, aprovação, homologação, parecer e visto. Atributos dos atos administrativos. Discricionariedade e vinculação dos atos administrativos. Extinção dos atos administrativos: hipóteses e formas. Anulação e revogação dos atos administrativos: distinções e consequências.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MEIRELLES, H. L. Direito Administrativo brasileiro. 44. ed. São Paulo: Malheiros, 2020.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "GODOI, G. D.; OLIVEIRA, V. G. M. Natureza jurídica do prazo estabelecido na Lei nº 9.784/1999 para a anulação do ato administrativo ilegal. Recifaqui, v. 2, n. 11, p. 131-153, 2021. Disponível em: http://recifaqui.faqui.edu.br/index.php/recifaqui/article/view/86/76. Acesso em: 5 jul. 2021.",
+                      "GONÇALVES JUNIOR, J. C. Controle do ato discricionário arbitrário na gradação da pena administrativa de multa aplicada pela administração pública federal, atecnia do caput do art. 2° e inobservância da primariedade do inciso 1, da Lei nº 7.889/1989. Revista de Direito Administrativo e Infraestrutura, v. 5, n. 17, p. 231-289, 2021. Disponível em: https://rdai.com.br/index.php/rdai/article/view/376. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Ementário"
+                    },
+                    {
+                      "para": "EIXO 3 – Licitações e contratos administrativos"
+                    }
+                  ]
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 1 – Aspectos gerais da licitação",
+                      "",
+                      "Licitação pública: conceito. Marcos históricos e legais das licitações públicas no Brasil. Mudanças decorrentes da atual legislação sobre licitações. Obrigatoriedade das licitações. Princípios nas licitações públicas. Princípios constitucionais. Princípios legais: legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, competitividade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO, F. L. L. (coord.). Novo Direito das Licitações e Contratos Administrativos: de acordo com a Lei nº 14.133/2021 (Nova Lei de Licitações). Curitiba: Juruá, 2021.",
+                      "CARVALHO, M. Nova Lei de Licitações Comparada. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "JUSTEN FILHO, M. Comentários à Lei de Licitações e Contratações Administrativas. São Paulo: Revista dos Tribunais, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MORAES, A. N. Nova Lei de Licitações Comparada Artigo por Artigo. Rio de Janeiro: Memória Forense, 2021.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "TORRES, R. C. L. Leis de Licitações Públicas comentadas. 12. ed. Salvador: Juspodivm, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "MACHADO, G. A. Considerações sobre a nova Lei de Licitações. Consultor Jurídico, 25 abr. 2021. Disponível em: https://www.conjur.com.br/2021-abr-25/gabriela-machado-consideracoes-lei-licitacoes. Acesso em: 5 jul. 2021.",
+                      "SILVA, E. F. R. A nova Lei de Licitações está em vigor para todos? Consultor Jurídico, 15 abr. 2021. Disponível em: https://www.conjur.com.br/2021-abr-15/opiniao-lei-licitacoes-vigor-todos. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 2 – Modalidades das licitações",
+                      "",
+                      "Modalidades licitatórias: concorrência, concurso, leilão, pregão e diálogo competitivo. Fases dos procedimentos licitatórios: preparatória; divulgação do edital; apresentação de propostas e lances; julgamento; habilitação; recursal; homologação. Contratação direta. Dispensa de licitação: licitação fracassada e licitação deserta. Inexigibilidade de licitação: hipóteses. Licitação dispensada. Licitação vedada ou proibida.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO, F. L. L (coord.). Novo Direito das Licitações e Contratos Administrativos: de acordo com a Lei nº 14.133/2021 (Nova Lei de Licitações). Curitiba: Juruá, 2021.",
+                      "CARVALHO, M. Nova Lei de Licitações Comparada. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "JUSTEN FILHO, M. Comentários à Lei de Licitações e Contratações Administrativas. São Paulo: Revista dos Tribunais, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MORAES, A. N. Nova Lei de Licitações comparada artigo por artigo. Rio de Janeiro: Memória Forense, 2021.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "TORRES, R. C. L. Leis de Licitações Públicas comentadas. 12. ed. Salvador: Juspodivm, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "MELLO, L. F. B.; AMORIM, V. O que esperar da nova lei de licitações. Migalhas, 29 mar. 2021. Disponível em: https://www.migalhas.com.br/depeso/342592/o-que-esperar-da-nova-lei-de-licitacoes. Acesso em: 5 jul. 2021.",
+                      "VIDAL FILHO, R. A. C. Pregão traz protagonismo ante a nova lei de licitações. Migalhas, 12 maio 2021. Disponível em: https://www.migalhas.com.br/depeso/345423/pregao-traz-protagonismo-ante-a-nova-lei-de-licitacoes. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 3 – Contratos administrativos",
+                      "",
+                      "Contratos administrativos: conceito. Diferença entre contratos administrativos e contratos privados. Estrutura e formalização dos contratos administrativos. Cláusulas obrigatórias e facultativas do contrato administrativo. Garantias. Das prerrogativas da administração pública: modificação unilateral do contrato, extinção unilateral do contrato, fiscalização do contrato, aplicação de sanções e ocupação provisória de bens. Parcerias na administração pública sob a ótica dos contratos administrativos.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO, F. L. L. (coord.). Novo Direito das Licitações e Contratos Administrativos: de acordo com a Lei nº 14.133/2021 (Nova Lei de Licitações). Curitiba: Juruá, 2021.",
+                      "CARVALHO, M. Nova Lei de Licitações Comparada. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "JUSTEN FILHO, M. Comentários à Lei de Licitações e Contratações Administrativas. São Paulo: Revista dos Tribunais, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MORAES, A. N. Nova Lei de Licitações comparada artigo por artigo. Rio de Janeiro: Memória Forense, 2021.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "TORRES, R. C. L. Leis de Licitações Públicas comentadas. 12. ed. Salvador: Juspodivm, 2021.",
+                      "INDICAÇÃO DE LEITURA",
+                      "AGUIAR, A. A extensão dos efeitos do impedimento para contratar com administração pública. Migalhas, 25 jun. 2021. Disponível em: https://www.migalhas.com.br/depeso/347576/impedimento-para-contratar-com-administracao-publica. Acesso em: 5 jul. 2021.",
+                      "ZARDO, F. Infrações e sanções em licitações e contratos administrativos: Inovações da Lei nº 14.133/21. Migalhas, 26 maio 2021. Disponível em: https://www.migalhas.com.br/depeso/346095/infracoes-e-sancoes-em-licitacoes-e-contratos-administrativos. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Ementário"
+                    },
+                    {
+                      "para": "EIXO 4 – Responsabilidade civil e controle da Administração Pública"
+                    }
+                  ]
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 1 – Responsabilidade civil da Administração Pública",
+                      "",
+                      "Responsabilidade civil contratual e responsabilidade civil extracontratual: principais diferenças e implicações. Responsabilidade civil nos contratos públicos. Evolução das teorias da responsabilidade civil do Estado. Elementos constitutivos da responsabilidade civil do Estado. Causas excludentes de responsabilidade civil do Estado. Teoria do risco administrativo. Construção jurisprudencial dos Tribunais Superiores acerca das excludentes de responsabilidade do Estado.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MEIRELLES, H. L. Direito Administrativo brasileiro. 44. ed. São Paulo: Malheiros, 2020.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "SCATOLINO, G.; TRINDADE, J. Manual de Direito Administrativo. 8. ed. Salvador: Juspodivm, 2020.",
+                      "INDICAÇÃO DE LEITURA",
+                      "CARVALHO NETO, I. Responsabilidade do Estado por atos de seus agentes. São Paulo: Atlas, 2000.",
+                      "FACCHINI NETO, E. Em busca de uma responsabilidade razoável, solidária e proporcional do estado em tempos de COVID-19. Revista Eletrônica de Direito do Centro Universitário Newton Paiva, Belo Horizonte, n. 43, p. 13-25. jan./abr. 2021. Disponível em: https://revistas.newtonpaiva.br/redcunp/wp-content/uploads/2021/06/REVISTA-ELETRONICA-DE-DIREITO-N.43.pdf#page=73. Acesso em: 5 jul. 2021"
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 2 – Controle da administração pública",
+                      "",
+                      "Controle na administração pública: controle vertical, controle interno, controle externo e autotutela. Sistema de controle interno da administração pública. Objetivos do sistema de controle interno. Controle interno e reforma administrativa. Sistema de controle interno do Poder Executivo federal. Controle externo da administração pública. Entidades fiscalizadoras superiores. Controle externo nos âmbitos estaduais, distrital e municipais.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MEIRELLES, H. L. Direito Administrativo brasileiro. 44. ed. São Paulo: Malheiros, 2020.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "SCATOLINO, G.; TRINDADE, J. Manual de Direito Administrativo. 8. ed. Salvador: Juspodivm, 2020.",
+                      "INDICAÇÃO DE LEITURA",
+                      "FRANÇA, P. G. Controle da administração pública. 4. ed. São Paulo: Saraiva, 2016.",
+                      "ORLANDI, A. G. et al. Controle gerencial na administração pública e transformação digital: sensoriamento remoto para fiscalizar. Cadernos Gestão Pública e Cidadania, São Paulo, v. 26, n. 83, p. 1-24, 2021. Disponível em: http://bibliotecadigital.fgv.br/ojs/index.php/cgpc/article/view/80456/78856. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "DISCIPLINA 3 – Processo Administrativo",
+                      "",
+                      "Processo administrativo. Princípios do processo administrativo: legalidade, publicidade, oficialidade, verdade material, obediência à forma e aos procedimentos, gratuidade, ampla defesa e contraditório, atipicidade, pluralidade de instâncias, economia processual, aproveitamento dos atos processuais e participação popular. Processo administrativo disciplinar: conceito e finalidades. Prescrição no PAD. Responsabilidade administrativa ambiental. Sistema Nacional do Meio Ambiente (Sisnama): competências. Processo administrativo ambiental. Processo administrativo fiscal. Procedimento fiscal na esfera aduaneira. Etapas do procedimento administrativo fiscal.",
+                      "",
+                      "BIBLIOGRAFIA",
+                      "CARVALHO FILHO, J. S. Manual de Direito Administrativo. 35. ed. São Paulo: Atlas, 2021.",
+                      "CARVALHO, M. Manual de Direito Administrativo. 9. ed. Salvador: Juspodivm, 2021.",
+                      "DI PIETRO, M. S. Z. Direito Administrativo. 34. ed. Rio de Janeiro: Forense, 2021.",
+                      "MARINELA, F. Manual de Direito Administrativo. 15. ed. Salvador: Juspodivm, 2021.",
+                      "MAZZA, A. Manual de Direito Administrativo. 11. ed. São Paulo: Saraiva Educação, 2021.",
+                      "MEIRELLES, H. L. Direito Administrativo brasileiro. 44. ed. São Paulo: Malheiros, 2020.",
+                      "MELLO, C. A. B. Curso de Direito Administrativo. 34. ed. São Paulo: Malheiros, 2019.",
+                      "OLIVEIRA, R. C. R. Curso de Direito Administrativo. 9. ed. Rio de Janeiro: Método, 2021.",
+                      "SCATOLINO, G.; TRINDADE, J. Manual de Direito Administrativo. 8. ed. Salvador: Juspodivm, 2020.",
+                      "INDICAÇÃO DE LEITURA",
+                      "DORIA, F.; STRASSER, F. A. C.; MORONG, F. F. A condução eficiente de um processo administrativo disciplinar como apoio à gestão pública. Colloquium Socialis, v. 5, n. 1, p. 1-11, 2021. Disponível em: http://journal.unoeste.br/index.php/cs/article/view/3937. Acesso em: 5 jul. 2021.",
+                      "MELLO, S. S. F.; LACERDA, L. P. Princípio da eficiência no processo administrativo: análise da criação das câmaras de prevenção e resolução administrativa de conflitos dos entes federativos estaduais e municipais. Revista de Direito Administrativo e Infraestrutura, v. 5, n. 16, p. 87-129, 2021. Disponível em: https://rdai.com.br/index.php/rdai/article/view/255. Acesso em: 5 jul. 2021."
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "tgroup": {
+            "tbody": {
+              "row": [
+                {
+                  "entry": [
+                    {
+                      "para": "Objetivos"
+                    },
+                    {
+                      "para": [
+                        "OBJETIVO GERAL",
+                        "",
+                        "Especializar profissionais para que estejam preparados a atuar na e frente à administração pública, com o embasamento teórico e prático necessário a enfrentar as peculiaridades decorrentes do regime jurídico-administrativo."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "entry": {
+                    "para": [
+                      "OBJETIVOS ESPECÍFICOS",
+                      ""
+                    ],
+                    "orderedlist": {
+                      "listitem": [
+                        {
+                          "para": "Oportunizar um aprendizado crítico a respeito dos princípios administrativos, realizando a releitura destes no contexto da contemporaneidade."
+                        },
+                        {
+                          "para": "Estruturar a organização político-administrativa de modo coerente e em sintonia com a aplicação da teoria do órgão."
+                        },
+                        {
+                          "para": "Apresentar um panorama a respeito dos agentes públicos e dos regimes jurídicos que regem suas diversas categorias."
+                        },
+                        {
+                          "para": "Compreender as principais alterações que a Lei nº 14.133/2021 ocasionou no regime das licitações e dos contratos administrativos."
+                        },
+                        {
+                          "para": "Proporcionar novos conhecimentos quanto à responsabilidade civil do Estado e o controle da atividade estatal."
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Público-alvo"
+                    },
+                    {
+                      "para": "Graduados em Direito e áreas afins que pretendam aprofundar seus conhecimentos sobre a atividade estatal, tais como: advogados administrativistas, servidores públicos de carreira, aspirantes a ocupar cargo público nas áreas jurídica, fiscal, bancária ou policial."
+                    }
+                  ]
+                },
+                {
+                  "entry": [
+                    {
+                      "para": "Perfil do egresso"
+                    },
+                    {
+                      "para": [
+                        "Este curso formará profissionais com sólidos conhecimentos a respeito das normas de Direito Administrativo. Tais profissionais estarão aptos a empreender na advocacia administrativista e a atuar em empresas que prestem serviços para a administração pública. Também contribuirá para aqueles que pretendem ocupar uma cadeira no serviço público, tornando-os preparados para os desafios que a carreira exige.",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }

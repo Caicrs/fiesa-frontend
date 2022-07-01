@@ -22,14 +22,14 @@ export default function ContentMenus() {
                     </p>
                 </div>
                 <div className="img_box" id="img1">
-                    <Image className='img_item' src={img1} ></Image>
+                    <Image alt="a" className='img_item' src={img1} ></Image>
                 </div>
                 
             </div>
             <div className="item">
                 
                 <div className="img_box" id="img1">
-                    <Image className='img_item' src={img2} ></Image>
+                    <Image alt="a" className='img_item' src={img2} ></Image>
                 </div>
                 <div className="texts">
                     <div className="box_content rightContent">
@@ -63,7 +63,7 @@ export default function ContentMenus() {
                     </p>
                 </div>
                 <div className="img_box" id="img1">
-                    <Image className='img_item' src={img3} ></Image>
+                    <Image alt="a" className='img_item' src={img3} ></Image>
                 </div>
                 
             </div>
