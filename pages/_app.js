@@ -8,6 +8,8 @@ import "../styles/navbar.css";
 import "../styles/graduacao_ead.css";
 import "../styles/vantagens.css";
 import "../styles/details.css";
+import "../styles/cards.css";
+import "../styles/contentMenus.css";
 import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({ Component, pageProps }) {

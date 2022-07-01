@@ -1,0 +1,48 @@
+.cards_grid{
+    width: 82%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 5rem;
+   
+}
+
+.card{
+    margin: 2rem;
+    width: 100%;
+    background-color: #282fe5;
+    color: white;
+    padding: 2rem 1rem 3rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.card_title{
+    width: 80%;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.card_text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.icon_card{
+    width: 5rem;
+    margin: 0 auto;
+}
+@media (max-width: 850px) { 
+    .cards_grid{
+        width: 85%;
+        padding-bottom: 0;
+        display: block;
+        background-color: antiquewhite;
+    }
+    .card{
+        margin: 0 0 3rem 0;
+        
+    }
+    .card_text{
+        font-size: 1.5rem;
+    }
+}

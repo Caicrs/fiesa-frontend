@@ -31,7 +31,7 @@ export default function NavbarComp() {
                 </div>
                 <div className="navbar">
                  
-                <div className="img_box">
+                <div className="img_box_logo">
                     <Image
                         src="/fiesa_logo.svg"
                         width="400"
@@ -91,7 +91,7 @@ export default function NavbarComp() {
                         </div></Link>
                     </Menu>
                 </div>
-                <div className="img_box">
+                <div className="img_box_logo">
                     <Image
                         src="/fiesa_logo_mob.svg"
                         width="270"
