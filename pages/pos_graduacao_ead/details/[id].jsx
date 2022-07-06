@@ -9,68 +9,17 @@ import Footer from '../../components/homepage-content/footer';
 import { useState } from 'react';
 
 export const getStaticProps = async (context) => {
-    const id = await context.params.id;
+    const preid = await context.params.id;
 
     return {
-        props: { myId : id }
+        revalidate:10,
+        props: { myId : preid }
     };
 };
 
 const Details_main = ( {myId}) => {
 
     const posgrad = [
-        {
-            id: 1,
-            title: 'Pós-Graduação em Advocacia Criminal',
-            hours: '540 ( com TCC )',
-            objectives:
-                'O curso de Pós-graduação em Advocacia Criminal objetiva aperfeiçoar o conhecimento, a compreensão, o raciocínio, a estratégia, a capacidade de tomadas de decisões e a atuação prático-profissional do advogado criminalista.',
-            targetPeoples:
-                'O curso é direcionado para portadores de diploma de Curso de Graduação em Direito, independentemente de atuarem ou não como advogados ou serem portadores de carteira da Ordem dos Advogados do Brasil.',
-            about: 'O curso aspira instruir o profissional do Direito para o exercício das atividades advocatícias na área criminal, bem como ampliar sua percepção jurídica sobre o tema. O modelo é semipresencial, com disciplinas e conteúdos ministrados na modalidade EAD, por meio da plataforma institucional, e disciplinas mistas, sendo parte do conteúdo disponibilizado na plataforma (EAD) e parte do conteúdo ministrado presencialmente na cidade indicada pela instituição no momento da realização da matrícula, conforme calendário. Essa metodologia permitirá que o aluno administre seu tempo na interação com a plataforma, ao mesmo tempo em que permite interação entre as partes e maior retenção do conteúdo explorado nas aulas presenciais. Traremos ainda, ao longo da jornada, palestrantes ligados à arte das Ciências Criminais.',
-            modules: [ {
-                titleMod: 'MODULO 1 - 140/hrs',
-                contents: [
-                    'Ética Profissional na Advocacia Criminal - 10/hrs',
-                    'Direito Penal I - Parte Geral - 40/hrs',
-                    'Direito Processual Penal I – noções gerais e atuação - 30/hrs',
-                    'Prática em peças processuais em busca da liberdade - 20/hrs',
-                    'Inquérito Policial – noções essenciais, atuação e audiência de custódia - 20/hrs',
-                    'Teoria e Prática em Prescrição Penal - 20/hrs',
-                ],
-            },
-          {
-                titleMod: 'MODULO 2 - 140/hrs',
-                contents: [
-                    'Direito Penal II - Parte Especial - 40/hrs',
-                    'Direito Processual Penal II – Procedimentos penais (prática em petições penais defensivas) - 30/hrs',
-                    'Investigação Criminal Defensiva - 20/hrs',
-                    'Juizado Especial Criminal – teoria e prática - 20/hrs',
-                    'Execução Penal I  - 20/hrs',
-                    'Oratória I - com foco na atuação do advogado em audiência (incluindo orientação individual - 10 hours) - 10/hrs',
-                ],
-            },
-          {
-                titleMod: 'MODULO 3 - 140/hrs',
-                contents: [
-                    'Metodologia da Pesquisa e do Trabalho Científico - 20/hrs',
-                    'Direito Penal III - Legislação Penal Especial - 40/hrs',
-                    'Direito Processual Penal III – Fase Recursal (teoria, prática escrita e sustentação oral) - 40/hrs',
-                    'Execução Penal II - 20/hrs',
-                    'Audiências criminais – técnicas e prática simulada  - 20/hrs',
-                ],
-            },
-          {
-                titleMod: 'MODULO 4 - 110/hrs',
-                contents: [
-                    'Tribunal do Júri – procedimento, estratégias de defesa e principais peças processuais - 40/hrs',
-                    'Tribunal do Júri – técnicas e prática simulada - 10/hrs',
-                    'Advocacia Criminal Acusatória - 20/hrs',
-                    'Crimes Eleitorais - 20/hrs',
-                    'TCC - Trabalho de Conclusão de Curso - Artigo Jurídico (Opcional) - 20/hrs',
-                ],
-            },]
-        },
         {
             id: 2,
             title: 'Pós-graduação em Direito Administrativo',
