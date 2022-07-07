@@ -8,7 +8,7 @@ export default function ChooseCategory() {
     const posgrad = [
         {
             id: 1,
-            title: 'Pós-graduação em Direito Administrativo',
+            title: 'Direito Administrativo',
             objectives:
                 'Especializar profissionais para que estejam preparados a atuar na e frente à administração pública, com o embasamento teórico e prático necessário a enfrentar as peculiaridades decorrentes do regime jurídico-administrativo.',
             targetPeoples:
@@ -54,7 +54,7 @@ export default function ChooseCategory() {
         },
         {
             id: 2,
-            title: 'Pós-graduação em Direito Constitucional',
+            title: 'Direito Constitucional',
             objectives:
                 'Especializar profissionais aptos a atuar no ramo de Direito Constitucional, permitindo ao aluno compreender o seu histórico de formação, bem como o manejo de ferramentas constitucionais adequadas a sua correta defesa.',
             targetPeoples:
@@ -99,7 +99,7 @@ export default function ChooseCategory() {
         },
         {
             id: 3,
-            title: 'Pós-graduação em Direito Empresarial',
+            title: 'Direito Empresarial',
             objectives:
                 'Especializar profissionais para que estejam preparados a prestar consultoria e assessoria jurídica para empresas de pequeno, médio e grande porte, entregando fundamentos teóricos e práticos suficientes para que o aluno esteja capacitado com habilidades especificas de gestão jurídica para empresas',
             targetPeoples:
@@ -142,7 +142,7 @@ export default function ChooseCategory() {
         },
         {
             id: 4,
-            title: 'Pós-graduação em Direito Processual Civil',
+            title: 'Direito Processual Civil',
             objectives:
                 'O curso de pós-graduação em Direito Processual Civil tem como objetivo a atualização, qualificação e aprimoramento dos alunos graduados para um melhor desempenho nas atividades profissionais e acadêmicas.',
             targetPeoples:
@@ -186,7 +186,7 @@ export default function ChooseCategory() {
         },
         {
             id: 5,
-            title: 'Pós-graduação em Direito Público',
+            title: 'Direito Público',
             objectives:
                 'Aprofundar os conhecimentos em Direito Público, em especial nas áreas de Direito Constitucional, Administrativo, Tributário e Ambiental. Disponibilizar uma visão mais holística dessas áreas do Direito em suas relações com outros segmentos como ecologia, reforma agrária, pobreza, finanças, ou seja, suas interfaces com matérias sensíveis à sociedade contemporânea.',
             targetPeoples:
@@ -233,7 +233,7 @@ export default function ChooseCategory() {
         },
         {
             id: 6,
-            title: 'Pós-graduação em Direito Tributário',
+            title: 'Direito Tributário',
             objectives:
                 'Capacitar o profissional para a atuação na área do Direito Tributário.',
             targetPeoples:
@@ -278,7 +278,7 @@ export default function ChooseCategory() {
         },
         {
             id: 7,
-            title: 'Pós-graduação em Direito e processo penal',
+            title: 'Direito e processo penal',
             objectives:
                 'Especializar profissionais da área de Direito, sociologia, psicologia e demais interessados em especializar seus estudos acerca do tratamento do fenômeno delitual pelo Estado, a partir do estudo do processo penal e criminologia, destacando as principais reflexões sobre os desafios existentes no contexto do sistema penal. Oferecer aportes teóricos e práticos para a atuação na área penal.',
             targetPeoples:
@@ -324,7 +324,7 @@ export default function ChooseCategory() {
         },
         {
             id: 8,
-            title: 'Pós-graduação em Direito contratual',
+            title: 'Direito contratual',
             objectives:
                 'Especializar profissionais para que estejam preparados para prestar consultoria e assessoria jurídicas para pessoas físicas e empresas de pequeno, médio e grande porte, entregando fundamentos teóricos e práticos suficientes para que o aluno esteja capacitado com habilidades especificas de gestão contratual (elaboração, intepretação e parecer jurídico).',
             targetPeoples:
@@ -367,7 +367,7 @@ export default function ChooseCategory() {
         },
         {
             id: 9,
-            title: 'Pós-graduação em Direito de família e sucessões',
+            title: 'Direito de família e sucessões',
             objectives:
                 'Especializar profissionais para que estejam preparados para atuar nas causas de família e sucessões, tanto no consultivo, quanto no contencioso, quer seja na condição de advogado ou de representante do Estado, com o embasamento teórico e prático necessário para enfrentar as singularidades decorrentes das relações familiares.',
             targetPeoples:
@@ -412,7 +412,7 @@ export default function ChooseCategory() {
         },
         {
             id: 10,
-            title: 'Pós-graduação em Direito material e processual do trabalho',
+            title: 'Direito material e processual do trabalho',
             objectives:
                 'Capacitar o profissional para a atuação na área do Direito Trabalhista Material e Processual.',
             targetPeoples:
@@ -468,7 +468,7 @@ export default function ChooseCategory() {
                     </p>
                     <div className="courses_grid">
                         {posgrad.map((item, i) => (
-                            <Link href={`details/${i}`}>
+                            <Link href={`direito/details/${i}`}>
                                 <div className="choose_course" key={i}>
                                     <div className="course_container">
                                         <Image

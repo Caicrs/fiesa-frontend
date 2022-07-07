@@ -1,9 +1,23 @@
-import courseEx from '../../assets/balance.svg';
-import Image from 'next/image';
-import Link from 'next/link';
+import NavbarComp from '../../../components/navbar';
+import SubNavbarComp from '../../../components/subnavbar';
+import Contents_details from './content_details';
+import Details from './details_1';
+import Head from 'next/head';
+import Cards from './details_cards';
+import ContentMenus from './content_menus'
+import Footer from '../../../components/homepage-content/footer';
 import { useState } from 'react';
 
-export default function ChooseCategory() {
+export const getStaticProps = async (context) => {
+    const preid = await context.params.id;
+
+    return {
+        revalidate:10,
+        props: { myId : preid }
+    };
+};
+
+const Details_main = ( {myId}) => {
 
     const posgrad = [
         {
@@ -443,48 +457,36 @@ export default function ChooseCategory() {
     ];
 
     return (
-        <div className="choose_container">
-            <div className="choose_courses">
-                <p className="choose_title">Cursos em Negócios</p>
-                <p className="choose_title subtitle">
-                    MBA | EAD
-                </p>
-                <div className="courses_grid">
-                    {posgrad.map((item, i) => (
-                        <Link href={`negocios/details/${i}`}>
-                            <div className="choose_course" key={i}>
-                                <div className="course_container">
-                                    <Image
-                                        alt="a"
-                                        className="img_course"
-                                        src={courseEx}
-                                    ></Image>
-                                    <div className="course_datas">
-                                        <h1 className="course_title">
-                                            {item.title}
-                                        </h1>
-                                        <h3 className="course_subtitle">
-                                            Pós Graduação / Direito
-                                        </h3>
-
-                                        <h3
-                                            className="course_subtitle"
-                                            id="start_data"
-                                        >
-                                            Inicio das aulas em 01/08/2022
-                                        </h3>
-                                        <h3 className="course_price">
-                                            18 x R$ 277,75
-                                        </h3>
-                                    </div>
-                                </div>
-
-                                <div className="more_btn">Saiba mais</div>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </div>
-        </div>
+        <>
+            <NavbarComp></NavbarComp>
+            <SubNavbarComp></SubNavbarComp>
+            <Details title={posgrad[myId].title}></Details>
+            <Cards></Cards>
+            <ContentMenus about={posgrad[myId].about} objectives={posgrad[myId].objectives} targetPeoples={posgrad[myId].targetPeoples}></ContentMenus>
+            <Contents_details modules={posgrad[myId].modules}></Contents_details>
+            <Head>
+                <title>
+                {posgrad[myId].title} | Pós Graduação EAD{' '}
+                </title>
+                <meta name="description" content="Fiesa" />
+                <link rel="icon" href="/favicon_fiesa.png" />
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+                ></link>
+            </Head>
+            <Footer></Footer>
+        </>
     );
+};
+
+export async function getStaticPaths() {
+    return {
+        paths: [],
+        fallback: true,
+    };
 }
+
+
+export default Details_main;

@@ -1,6 +1,6 @@
-import chart from '../../assets/chart.svg';
-import alarm from '../../assets/alarm.svg';
-import ucheck from '../../assets/ucheck.svg';
+import chart from '../../../assets/chart.svg';
+import alarm from '../../../assets/alarm.svg';
+import ucheck from '../../../assets/ucheck.svg';
 import Image from 'next/image';
 
 export default function Cards() {

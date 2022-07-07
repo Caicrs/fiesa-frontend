@@ -139,16 +139,16 @@ export default function Content2() {
 
                         <div className="grid_courses">
                             <Link href="/graduacao/direito">
-                                <div className="box">Direito</div>
+                                <div className="box disable">Direito</div>
                             </Link>
                             <Link href="/graduacao/educacao">
-                                <div className="box">Educação</div>
+                                <div className="box disable">Educação</div>
                             </Link>
                             <Link href="/graduacao/tecnologia">
-                                <div className="box">Tecnologia</div>
+                                <div className="box disable">Tecnologia</div>
                             </Link>
                             <Link href="/graduacao/negocios">
-                                <div className="box">Negócios</div>
+                                <div className="box disable">Negócios</div>
                             </Link>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ export default function Content2() {
 
                         <div className="grid_courses">
                             <Link href="/pos_graduacao_ead/direito">
-                                <div className="box">Direito</div>
+                                <div className="box ">Direito</div>
                             </Link>
                             <Link href="/pos_graduacao_ead/educacao">
                                 <div className="box">Educação</div>
@@ -208,13 +208,13 @@ export default function Content2() {
                                 <div className="box">Direito</div>
                             </Link>
                             <Link href="/pos_graduacao_semi/educacao">
-                                <div className="box">Educação</div>
+                                <div className="box disable">Educação</div>
                             </Link>
                             <Link href="/pos_graduacao_semi/tecnologia">
-                                <div className="box">Tecnologia</div>
+                                <div className="box disable">Tecnologia</div>
                             </Link>
                             <Link href="/pos_graduacao_semi/negocios">
-                                <div className="box">Negócios</div>
+                                <div className="box disable">Negócios</div>
                             </Link>
                         </div>
                     </div>
@@ -235,16 +235,8 @@ export default function Content2() {
                             </p>
                         </div>
 
-                        <div className="grid_courses">
-                            <Link href="/mba/direito">
-                                <div className="box">Direito</div>
-                            </Link>
-                            <Link href="/mba/educacao">
-                                <div className="box">Educação</div>
-                            </Link>
-                            <Link href="/mba/tecnologia">
-                                <div className="box">Tecnologia</div>
-                            </Link>
+                        <div className="grid_courses mba_grid">
+                          
                             <Link href="/mba/negocios">
                                 <div className="box">Negócios</div>
                             </Link>

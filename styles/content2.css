@@ -44,6 +44,10 @@
     grid-column-gap: 0rem;
     grid-row-gap: 1rem;
 }
+.mba_grid{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
 .box {
     width: 80%;
     height: 100%;
@@ -60,6 +64,9 @@
 }
 .box:hover {
     transform: scale(0.9);
+}
+.disable:hover{
+    transform: scale(1);
 }
 @media (max-width: 800px) {
     .title_courses {
@@ -112,4 +119,8 @@
     font-size: small;
     font-weight: 600;
     text-align: justify;
+}
+.disable{
+    opacity: 0.5;
+  cursor:auto;
 }

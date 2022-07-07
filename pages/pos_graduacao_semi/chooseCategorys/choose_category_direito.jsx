@@ -7,7 +7,7 @@ export default function ChooseCategory() {
     const posgrad = [
         {
             id: 1,
-            title: 'Pós-Graduação em Advocacia Criminal', 
+            title: 'Advocacia Criminal', 
         }
     ];
 
@@ -20,7 +20,7 @@ export default function ChooseCategory() {
                 </p>
                 <div className="courses_grid">
                     {posgrad.map((item, i) => (
-                        <Link href={`details/${i}`}>
+                        <Link href={`direito/details/${i}`}>
                             <div className="choose_course" key={i}>
                                 <div className="course_container">
                                     <Image

@@ -13,7 +13,7 @@ export default function Home() {
             <Content1></Content1>
             <ChooseCategory></ChooseCategory>
             <Head>
-                <title>Graduação em Direito </title>
+                <title>Pós Graduação em Direito</title>
                 <meta name="description" content="Fiesa" />
                 <link rel="icon" href="/favicon_fiesa.png" />
             </Head>

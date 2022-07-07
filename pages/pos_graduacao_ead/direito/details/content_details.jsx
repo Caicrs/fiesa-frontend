@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Arrow from '../../assets/arrow_circ.svg';
-import Arrow180 from '../../assets/arrow_circ_180.svg';
-import Check from '../../assets/check.svg';
+import Arrow from '../../../assets/arrow_circ.svg';
+import Arrow180 from '../../../assets/arrow_circ_180.svg';
+import Check from '../../../assets/check.svg';
 import useCollapse from 'react-collapsed';
 import { useState } from 'react';
 

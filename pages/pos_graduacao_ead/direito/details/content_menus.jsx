@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import img1 from '../../assets/test.png';
-import img2 from '../../assets/img2.png';
-import img3 from '../../assets/img3.png';
+import img1 from '../../../assets/test.png';
+import img2 from '../../../assets/img2.png';
+import img3 from '../../../assets/img3.png';
 
 export default function ContentMenus(props) {
     return (

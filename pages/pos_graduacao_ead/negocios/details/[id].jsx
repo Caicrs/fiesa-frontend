@@ -1,9 +1,24 @@
-import courseEx from '../../assets/balance.svg';
-import Image from 'next/image';
-import Link from 'next/link';
+import NavbarComp from '../../../components/navbar';
+import SubNavbarComp from '../../../components/subnavbar';
+import Contents_details from './content_details';
+import Details from './details_1';
+import Head from 'next/head';
+import Cards from './details_cards';
+import ContentMenus from '../details/content_menus'
+import Footer from '../../../components/homepage-content/footer';
 import { useState } from 'react';
 
-export default function ChooseCategory() {
+export const getStaticProps = async (context) => {
+    const preid = await context.params.id;
+
+    return {
+        revalidate:10,
+        props: { myId : preid }
+    };
+};
+
+const Details_main = ( {myId}) => {
+
     const posgrad = [
         {
             id: 1,
@@ -13,8 +28,8 @@ export default function ChooseCategory() {
             targetPeoples:
                 'A pós-graduação em administração pública, considerando seu caráter prático, se destina a profissionais e acadêmicos que tenham concluído qualquer curso superior e que desempenham suas funções ou que buscam atuar no setor público ou em áreas correlacionadas. O curso é voltado em especial àqueles profissionais que desejam ampliar seus conhecimentos sobre as recentes alterações na estrutura da administração pública e suas implicações para o futuro.',
             about: 'No curso de pós-graduação em administração pública, o aluno irá adquirir todos os conhecimentos teóricos e técnicos sobre os órgãos públicos de nosso país. Além de compreender a fundo o funcionamento da esfera pública, desenvolverá habilidades de gestão, liderança e administração. Saberá também como gerir os recursos públicos, realizar orçamentos, analisar dados financeiros e como agir dentro da legalidade, da ética e em prol da sociedade. Para isso, o conteúdo é apresentado com a profundidade teórica necessária a uma pós-graduação, aliado a experiências práticas aptas a proporcionar a especialização do profissional que atuará na administração pública.',
-            modules: {
-                mod1: {
+            modules: [
+               {
                     titleMod:
                         'MODULO 1 - Aspectos Introdutórios sobre a Ação do Ente Público',
                     contents: [
@@ -23,7 +38,7 @@ export default function ChooseCategory() {
                         'Instrumento de Planejamento e Orçamento Público',
                     ],
                 },
-                mod2: {
+               {
                     titleMod:
                         'MODULO 2 - Características das Contratações Públicas',
                     contents: [
@@ -32,7 +47,7 @@ export default function ChooseCategory() {
                         'Processos Licitatórios II',
                     ],
                 },
-                mod3: {
+               {
                     titleMod:
                         'MODULO 3 - O Controle do Planejamento e das Contratações Públicas',
                     contents: [
@@ -41,7 +56,7 @@ export default function ChooseCategory() {
                         'Fundamentos da Controladoria Governamental',
                     ],
                 },
-                mod4: {
+               {
                     titleMod:
                         'MODULO 4 - Aspectos Contemporâneos da Administração Pública',
                     contents: [
@@ -50,7 +65,7 @@ export default function ChooseCategory() {
                         'A Administração Pública na Contemporaneidade',
                     ],
                 },
-            },
+            ]
         },
         {
             id: 2,
@@ -60,8 +75,8 @@ export default function ChooseCategory() {
             targetPeoples:
                 'O público-alvo desse curso são todos os profissionais que tenham diploma de graduação e queiram aprofundar-se e/ou atualizar-se na dinâmica dos recursos humanos no contexto do serviço público.',
             about: 'A área de recursos humanos (RH) é fundamental a toda e qualquer organização. Em caso de serviço público, isso não é diferente. São abordados os processos que envolvem recrutamento e seleção, treinamento, avaliação de desempenho, remuneração, políticas e práticas de RH, aprendizagem, desenvolvimento humano e organizacional e liderança. No curso, você estudará esses temas a fim de compreender como as temáticas estão suportadas na teoria e, por meio de casos práticos, entenderá como funcionam no serviço público. O intuito é proporcionar a especialização ao profissional que atuará junto a empresas públicas.',
-            modules: {
-                mod1: {
+            modules: [
+               {
                     titleMod:
                         'MODULO 1 - Gestão de pessoas: estratégia, políticas e práticas',
                     contents: [
@@ -70,7 +85,7 @@ export default function ChooseCategory() {
                         'Gestão Estratégica de Pessoas: Planejamento e Avaliação',
                     ],
                 },
-                mod2: {
+               {
                     titleMod: 'MODULO 2 - Aprendizagem em Diferentes Contextos',
                     contents: [
                         'Teorias Contemporâneas da Aprendizagem',
@@ -78,7 +93,7 @@ export default function ChooseCategory() {
                         'Aprendizagem por Competências',
                     ],
                 },
-                mod3: {
+               {
                     titleMod: 'MODULO 3 - Desenvolvimento Humano e Organizacional',
                     contents: [
                         'Desenvolvimento Humano: conhecimento, motivação e criatividade',
@@ -86,7 +101,7 @@ export default function ChooseCategory() {
                         'Transformações do Trabalho e Adoecimento',
                     ],
                 },
-                mod4: {
+               {
                     titleMod: 'MODULO 4 - Liderança',
                     contents: [
                         'Aspectos Introdutórios em Liderança',
@@ -94,7 +109,7 @@ export default function ChooseCategory() {
                         'Comunicação e Pessoas nas Organizações',
                     ],
                 },
-            },
+            ]
         },
         {
             id: 3,
@@ -104,8 +119,8 @@ export default function ChooseCategory() {
             targetPeoples:
                 'Profissionais graduados em direito, ciências contábeis, administração, gestão pública ou áreas afins, da iniciativa pública ou privada, que já atuam ou pretendem atuar no setor de licitações públicas e contratos administrativos, vinculados à órgãos e entidades públicas.',
             about: 'O setor de contratos administrativos e licitações públicas tem ampliado cada vez mais sua área de atuação, sendo de vital importância para o correto e regular desenvolvimento das atividades ligadas à administração pública. Sob essa ótica, também se torna imprescindível que os atores envolvidos nesse contexto, em todos os níveis administrativos, estejam plenamente capacitados e aptos a operar dentro dos limites dos princípios administrativos e das demais normas que regulam os procedimentos licitatórios.',
-            modules: {
-                mod1: {
+            modules: [
+               {
                     titleMod: 'MODULO 1 - Gestão Contábil',
                     contents: [
                         'Contabilidade Empresarial e Governança',
@@ -113,7 +128,7 @@ export default function ChooseCategory() {
                         'Avaliação de Empresa',
                     ],
                 },
-                mod2: {
+               {
                     titleMod: 'MODULO 2 - Gestão Financeira e de Investimentos',
                     contents: [
                         'Administração e Avaliação de Projetos',
@@ -121,7 +136,7 @@ export default function ChooseCategory() {
                         'Mercado de Capitais',
                     ],
                 },
-                mod3: {
+               {
                     titleMod: 'MODULO 3 - Índices Financeiros',
                     contents: [
                         'Fundamentos Contábeis',
@@ -129,7 +144,7 @@ export default function ChooseCategory() {
                         'Indicadores de atividade financeira',
                     ],
                 },
-                mod4: {
+               {
                     titleMod: 'MODULO 4 - Custos e Análise de Investimentos',
                     contents: [
                         'Apresentação da Análises de Investimentos',
@@ -137,7 +152,7 @@ export default function ChooseCategory() {
                         'Orçamento de Capital',
                     ],
                 },
-            },
+            ]
         },
         {
             id: 4,
@@ -147,8 +162,8 @@ export default function ChooseCategory() {
             targetPeoples:
                 'Profissionais atuantes (de nível operacional a nível tático) das áreas financeira e de planejamento das organizações. Discentes interessados em desenvolver carreira profissional na área financeira ou de planejamento estratégico.',
             about: 'O setor de contratos administrativos e licitações públicas tem ampliado cada vez mais sua área de atuação, sendo de vital importância para o correto e regular desenvolvimento das atividades ligadas à administração pública. Sob essa ótica, também se torna imprescindível que os atores envolvidos nesse contexto, em todos os níveis administrativos, estejam plenamente capacitados e aptos a operar dentro dos limites dos princípios administrativos e das demais normas que regulam os procedimentos licitatórios.',
-            modules: {
-                mod1: {
+            modules: [
+               {
                     titleMod: 'MODULO 1 - Matemática Financeira ',
                     contents: [
                         'Introdução à Matemática Financeira',
@@ -156,7 +171,7 @@ export default function ChooseCategory() {
                         'Taxas de Operações Financeiras',
                     ],
                 },
-                mod2: {
+               {
                     titleMod: 'MODULO 2 - Gestão Financeira e de Investimentos',
                     contents: [
                         'Gestão Financeira Operacional',
@@ -164,7 +179,7 @@ export default function ChooseCategory() {
                         'Análises de Investimentos',
                     ],
                 },
-                mod3: {
+               {
                     titleMod: 'MODULO 3 - Estatística',
                     contents: [
                         'Estatística Descritiva',
@@ -172,7 +187,7 @@ export default function ChooseCategory() {
                         'Amostra e População',
                     ],
                 },
-                mod4: {
+               {
                     titleMod: 'MODULO 4 - Análise Estatística',
                     contents: [
                         'Análise de Regressão',
@@ -180,7 +195,7 @@ export default function ChooseCategory() {
                         'Análise dos Dados por Softwares',
                     ],
                 },
-            },
+            ]
         },
         {
             id: 5,
@@ -189,8 +204,9 @@ export default function ChooseCategory() {
                 'Especializar profissionais com o embasamento teórico e prático necessários para atuar na contabilidade pública, conhecendo as peculiaridades da área e enfrentando as dificuldades decorrentes das suas atividades.',
             targetPeoples:
                 'Graduados em contabilidade, administração e áreas afins que se interessam pela atividade de contabilidade voltada para a administração do Estado. O curso destina-se também aos contadores, administradores públicos e àqueles que pretendem ingressar em alguma dessas atividades.',
-            modules: {
-                mod1: {
+                about: 'O setor de contratos administrativos e licitações públicas tem ampliado cada vez mais sua área de atuação, sendo de vital importância para o correto e regular desenvolvimento das atividades ligadas à administração pública. Sob essa ótica, também se torna imprescindível que os atores envolvidos nesse contexto, em todos os níveis administrativos, estejam plenamente capacitados e aptos a operar dentro dos limites dos princípios administrativos e das demais normas que regulam os procedimentos licitatórios.',
+            modules: [
+               {
                     titleMod:
                         'MODULO 1 - Aspectos Contemporâneos da Administração Pública',
                     contents: [
@@ -199,7 +215,7 @@ export default function ChooseCategory() {
                         'A Administração Pública na Contemporaneidade',
                     ],
                 },
-                mod2: {
+               {
                     titleMod:
                         'MODULO 2 - Aspectos Introdutórios sobre a Ação do Ente Público',
                     contents: [
@@ -208,7 +224,7 @@ export default function ChooseCategory() {
                         'Instrumento de Planejamento e Orçamento Público',
                     ],
                 },
-                mod3: {
+               {
                     titleMod:
                         'MODULO 3 - Aspectos Contemporâneos das Licitações e Compras Públicas Sustentáveis',
                     contents: [
@@ -217,7 +233,7 @@ export default function ChooseCategory() {
                         'Licitações e Compras Públicas na Contemporaneidade',
                     ],
                 },
-                mod4: {
+               {
                     titleMod:
                         'MODULO 4 - Aspectos Contemporâneos da Auditoria e Controladoria Governamental',
                     contents: [
@@ -226,52 +242,41 @@ export default function ChooseCategory() {
                         'Auditoria e Controladoria Governamental na Contemporaneidade',
                     ],
                 },
-            },
+            ]
         },
     ];
+
     return (
-        <div className="choose_container">
-            <div className="choose_courses">
-                <p className="choose_title">Cursos em Negócios</p>
-                <p className="choose_title subtitle">
-                    Pós Graduação | EAD
-                </p>
-                <div className="courses_grid">
-                    {posgrad.map((item, i) => (
-                        <Link href={`negocios/details/${i}`}>
-                            <div className="choose_course" key={i}>
-                                <div className="course_container">
-                                    <Image
-                                        alt="a"
-                                        className="img_course"
-                                        src={courseEx}
-                                    ></Image>
-                                    <div className="course_datas">
-                                        <h1 className="course_title">
-                                            {item.title}
-                                        </h1>
-                                        <h3 className="course_subtitle">
-                                            Pós Graduação / Direito
-                                        </h3>
-
-                                        <h3
-                                            className="course_subtitle"
-                                            id="start_data"
-                                        >
-                                            Inicio das aulas em 01/08/2022
-                                        </h3>
-                                        <h3 className="course_price">
-                                            18 x R$ 277,75
-                                        </h3>
-                                    </div>
-                                </div>
-
-                                <div className="more_btn">Saiba mais</div>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </div>
-        </div>
+        <>
+            <NavbarComp></NavbarComp>
+            <SubNavbarComp></SubNavbarComp>
+            <Details title={posgrad[myId].title}></Details>
+            <Cards></Cards>
+            <ContentMenus about={posgrad[myId].about} objectives={posgrad[myId].objectives} targetPeoples={posgrad[myId].targetPeoples}></ContentMenus>
+            <Contents_details modules={posgrad[myId].modules}></Contents_details>
+            <Head>
+                <title>
+                {posgrad[myId].title} | Pós Graduação EAD{' '}
+                </title>
+                <meta name="description" content="Fiesa" />
+                <link rel="icon" href="/favicon_fiesa.png" />
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+                ></link>
+            </Head>
+            <Footer></Footer>
+        </>
     );
+};
+
+export async function getStaticPaths() {
+    return {
+        paths: [],
+        fallback: true,
+    };
 }
+
+
+export default Details_main;

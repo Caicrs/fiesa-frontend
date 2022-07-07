@@ -35,7 +35,7 @@ export default function NavbarComp() {
                     <Image
                         src="/fiesa_logo.svg"
                         width="400"
-                        height="70"
+                        height="40"
                         className="logo_img"
                         alt="React Bootstrap logo"
                     />
