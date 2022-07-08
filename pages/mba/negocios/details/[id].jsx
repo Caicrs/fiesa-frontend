@@ -489,4 +489,4 @@ export async function getStaticPaths() {
 }
 
 
-
+export default Details_main;
