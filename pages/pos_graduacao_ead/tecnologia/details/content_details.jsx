@@ -26,7 +26,7 @@ export default function Content_details(props) {
                 <h1 className="title_content">Conteúdos</h1>
             </div>
             <div className="dropdown_grid">
-                {data.map((item, i) => (
+                {data && data.map((item, i) => (
                     <div className="full_content" key={i}>
                         <div className="drop_content" onClick={() => toggle(i)} >
                             <div className="info_title" >{item.titleMod}</div>

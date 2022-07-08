@@ -699,16 +699,16 @@ const Details_main = ({ myId }) => {
         <>
             <NavbarComp></NavbarComp>
             <SubNavbarComp></SubNavbarComp>
-            <Details title={posgrad[myId].title}></Details>
+            <Details title={posgrad[myId]?.title}></Details>
             <Cards></Cards>
             <ContentMenus
-                about={posgrad[myId].about}
-                objectives={posgrad[myId].objectives}
-                targetPeoples={posgrad[myId].targetPeoples}
+                about={posgrad[myId]?.about}
+                objectives={posgrad[myId]?.objectives}
+                targetPeoples={posgrad[myId]?.targetPeoples}
             ></ContentMenus>
-            <Contents_details modules={posgrad[myId].modules}></Contents_details>
+            <Contents_details modules={posgrad[myId]?.modules}></Contents_details>
             <Head>
-                <title>{posgrad[myId].title} | Pós Graduação EAD </title>
+                <title>{posgrad[myId]?.title} | Pós Graduação EAD </title>
                 <meta name="description" content="Fiesa" />
                 <link rel="icon" href="/favicon_fiesa.png" />
                 <link
