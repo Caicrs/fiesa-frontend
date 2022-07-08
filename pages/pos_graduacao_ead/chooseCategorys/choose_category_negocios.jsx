@@ -238,7 +238,7 @@ export default function ChooseCategory() {
                 </p>
                 <div className="courses_grid">
                     {posgrad.map((item, i) => (
-                        <Link href={`negocios/details/${i}`}>
+                        <Link href={`negocios/details/${i}`} key={i}>
                             <div className="choose_course" key={i}>
                                 <div className="course_container">
                                     <Image
